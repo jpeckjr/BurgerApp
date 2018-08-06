@@ -1,3 +1,7 @@
-INSERT INTO burgers (burger_name) VALUES ('Thunder Bay Cheddar Burger');
-INSERT INTO cats (burger_name) VALUES ('Bacon Blue Cheese Burger');
-INSERT INTO cats (burger_name) VALUES ('California Burger');
+
+USE `burgers_db`;
+
+
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Fish Fillet', false, CURRENT_TIMESTAMP);
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Roast Beef', false, CURRENT_TIMESTAMP);
+INSERT INTO `burgers` (burger_name, devoured, date) VALUES ('Quarter Pounder', false, CURRENT_TIMESTAMP);
